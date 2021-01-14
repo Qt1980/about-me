@@ -1,5 +1,7 @@
 body {
   background-color: lightgrey;
+  width: 960px;
+  margin: auto;
 }
 
 h1{
@@ -8,13 +10,14 @@ h1{
   background-color: black;
   opacity: 0.7;
   margin: 25px;
-  padding: 10px
+  padding: 10px;
+  text-align:center
 }
 
 h2{
   font-weight: bold;
   margin: 10px;
-  color: rgb(19, 57, 228)
+  color: rgb(19, 57, 228);
   
 }
 
@@ -26,5 +29,6 @@ h3{
 }
 
 p{
+  padding: 10px;
 
 }
