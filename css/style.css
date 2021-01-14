@@ -30,5 +30,10 @@ h3{
 
 p{
   padding: 10px;
-
 }
+
+img {
+  width: 100px;
+  float: left;
+}
+
