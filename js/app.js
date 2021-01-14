@@ -20,8 +20,6 @@ if(homeCity === 'yes' || homeCity === 'y') {
   alert('Ah well that\'s ok too. Most Jedi are familiar with various Alien species.');
 }
 
-
-
 //second question
 
 var stayingAlive = prompt('Do you enjoy meditating?').toLowerCase();
@@ -33,7 +31,6 @@ if(stayingAlive === 'yes' || stayingAlive === 'y') {
 }else if (stayingAlive === 'no' || stayingAlive === 'n') {
   alert('Hmm, If you do not then to the dark side you will go!');
 }
-
 
 // third question
 
