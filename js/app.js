@@ -1,4 +1,4 @@
-//'use strict'
+'use strict'
 
 //write 5 questions, must except yes/no or y/n.
 //examples: yes, YES, Yes, y or Y
