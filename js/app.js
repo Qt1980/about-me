@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // //'use strict'
+=======
+'use strict'
+>>>>>>> f6d017f9ef518a449d6a162b35b7c17d8a90d0e3
 
 // //write 5 questions, must except yes/no or y/n.
 // //examples: yes, YES, Yes, y or Y
