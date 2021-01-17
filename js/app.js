@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// //'use strict'
-=======
-'use strict'
->>>>>>> f6d017f9ef518a449d6a162b35b7c17d8a90d0e3
+'use strict';
 
 // //write 5 questions, must except yes/no or y/n.
 // //examples: yes, YES, Yes, y or Y
@@ -69,3 +65,19 @@
 // }else if (oneForce === 'no' || oneForce === 'n') {
 //   alert(userName +' you are a Sith Lord. Prepare to do battle!');
 // }
+
+for (var i = 0; i < 4; i++) {
+var guessmyAge = +prompt('How old do you think I am?');
+console.log(typeof(guessmyAge));
+var age = 40;
+if (guessmyAge === age) {
+  alert('Bingo! You guessed it!');
+break;
+}else if (i < 3 && guessmyAge < age) {
+    alert('Nice try but you need to go a bit higher.');
+}else if (i < 3 && guessmyAge > age) {
+    alert('Ah not that old! Lower please!');
+}else if (i === 3) {
+    alert('Sorry your out of guesses. I am 40.');
+}
+}
