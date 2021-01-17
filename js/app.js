@@ -11,43 +11,46 @@ var userName = prompt('Hello What is your name?');
 alert('What as wonderful name! ' + userName + ', It\'s such a pleasure to meet you! ');
 
 //first question
-var homeCity = prompt('So, Let\'s get to know each other! Are you from the planet Earth?').toLowerCase();
+var homeCity = prompt('So, Let\'s get to know each other! Am I from the planet Earth?').toLowerCase();
 
 //console.log(homeCity);
 
 if(homeCity === 'yes' || homeCity === 'y') {
-  alert('Yes! Yes you are otherwise I would call...Nevermind!');
+  alert('Yes! Yes you are correct! I am on of the originals...Nevermind!');
+  score++;
 } else if (homeCity === 'no' || homeCity === 'n') {
 
-  alert('Ah well that\'s ok too. Most Jedi are familiar with various Alien species.');
+  alert('So you think I\'m and alien eh?. I\'ve been called worse by better people!');
 }
 
 //second question
 
-var stayingAlive = prompt('Do you enjoy meditating?').toLowerCase();
+var stayingAlive = prompt('Do I enjoy meditating?').toLowerCase();
 
 //console.log(stayingAlive);
 
 if(stayingAlive === 'yes' || stayingAlive === 'y') {
-  alert('Very Good Padawan! Meditation leads to strength in he force!');
+  alert('Very Good Padawan! Meditation leads to great strength in the force!');
+  score++;
 }else if (stayingAlive === 'no' || stayingAlive === 'n') {
-  alert('Hmm, If you do not then to the dark side you will go!');
+  alert('Hmm, I probably would\'ve been a sith a long time ago if it weren\'nt for meditation!');
 }
 
 // third question
 
-var angryAntics = prompt('Do you like to be angry?').toLowerCase();
+var angryAntics = prompt('Do I like to be angry?').toLowerCase();
 //console.log(angryAntics);
 
 if(angryAntics === 'yes' || angryAntics === 'y'){
-  alert('The darkside of the force calls to you. You must learn to quell your emotions.');
+  alert('The darkside of the force calls to you. You must learn to quell your emotions. I did. You can too!');
 }else if (angryAntics === 'no' || angryAntics === 'n') {
-  alert('Very Good! This is the true path of the Jedi!');
+  alert('Very Good! This is the true path of the Jedi!')
+  score++;
 }
 
 //fourth question
 
-var lightSaber = prompt('Do you possess a lightsaber?').toLowerCase();
+var lightSaber = prompt('Do I possess a lightsaber?').toLowerCase();
 
 if(lightSaber === 'yes' || lightSaber === 'y') {
   //console.log(lightSaber);
@@ -59,7 +62,7 @@ if(lightSaber === 'yes' || lightSaber === 'y') {
 
 //Fifth question
 
-var oneForce = prompt('Are you one with the force?').toLowerCase();
+var oneForce = prompt('Am I one with the force?').toLowerCase();
 
 //console.log(oneForce);
 
@@ -71,7 +74,7 @@ if(oneForce === 'yes' || oneForce === 'y'){
 }
 
 for (var i = 0; i < 4; i++) {
-  var guessmyAge = +prompt('How old do you think I am?');
+  var guessmyAge = +prompt('How old do you think I am? You get 4 guesses!');
   //console.log(typeof(guessmyAge));
   var age = 40;
   if (guessmyAge === age) {
@@ -92,7 +95,7 @@ var answerCorrectly = false;
 var myfavoriteAnimals = ['House cat', 'Golden Eagle', 'Bat', 'Dog', 'Octopus', 'Snake', 'Scorpion'];
 //console.log(myfavoriteAnimals);
 for (var j = 0; j < 6; j++) {
-  var guessMyfavorites = prompt('What are my favorite animals');
+  var guessMyfavorites = prompt('What are my favorite animals? You get 6 guesses!');
   for (var k = 0; k < myfavoriteAnimals.length; k++) {
     if (guessMyfavorites === myfavoriteAnimals[k]) {
       alert('Correct');
@@ -104,6 +107,6 @@ for (var j = 0; j < 6; j++) {
     break;
   }
 }
-alert('My favorite animals are House cat, Golden Eagle, Bat, Dog, Octopus, Snake Scorpion');
+alert('My favorite animals are House cat, Golden Eagle, Bat, Dog, Octopus, Snake and Scorpion');
 console.log(score);
-alert( 'Good job' + userName + 'You scored well')
+alert( 'Good job' + userName + ', You scored well')
