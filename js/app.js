@@ -95,7 +95,7 @@ var answerCorrectly = false;
 var myfavoriteAnimals = ['House cat', 'Golden Eagle', 'Bat', 'Dog', 'Octopus', 'Snake', 'Scorpion'];
 //console.log(myfavoriteAnimals);
 for (var j = 0; j < 6; j++) {
-  var guessMyfavorites = prompt('What are my favorite animals? You get 6 guesses!');
+  var guessMyfavorites = prompt('What are my favorite animals? You get 6 guesses!').toLowerCase();
   for (var k = 0; k < myfavoriteAnimals.length; k++) {
     if (guessMyfavorites === myfavoriteAnimals[k]) {
       alert('Correct');
