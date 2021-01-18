@@ -109,4 +109,4 @@ for (var j = 0; j < 6; j++) {
 }
 alert('My favorite animals are House cat, Golden Eagle, Bat, Dog, Octopus, Snake and Scorpion');
 console.log(score);
-alert( 'Good job' + userName + ', You scored well')
+alert( 'Good job' + userName + ', You scored ' + score++)
