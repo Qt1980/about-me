@@ -1,10 +1,20 @@
+
+img{
+  border: solid black;
+  border-width: thick;
+  margin-left: 0px 0px 0px 0px;
+  width: 150px;
+}
+
 body {
   background-color: lightgrey;
-  width: 960px;
+  width: 1060px;
   margin: auto;
 }
 
 h1{
+  border: solid gold;
+  border-width: 5px;
   font-weight: bold;
   font-size: larger;
   color: white;
@@ -15,7 +25,19 @@ h1{
   text-align:center
 }
 
+p{
+  position: relative;
+  left: 100px;
+  bottom: 210px;
+  border: solid fuchsia;
+  border-width: thick;
+  margin-left: 95px;
+  padding: 10px;
+  font-size: large;
+}
 h2{
+  border: solid green;
+  border-width: 5px;
   font-weight: bold;
   font-size: large;
   margin: 10px;
@@ -23,27 +45,37 @@ h2{
 }
 
 h3{
+  border: solid green;
+  border-width: 5px;
   font-weight: bold;
   font-size: large;
-  margin: 15px;
+  margin: 10px;
   color:rgb(19, 57, 228)
 }
 
 h4{
+  border: solid green;
+  border-width: 5px;
   font-weight: bold;
-  font-size: medium;
+  font-size: large;
+  margin: 10px;
   color:blue
 }
 
-p{
-  border-width: thick;
-  padding: 10px;
+h5{
+  border: solid green;
+  border-width: 5px;
   font-size: large;
+  margin: 10px;
+  color:blue;
 }
 
-img{
-  border: red;
-  width: 200px;
-  float: left;
+ul{
+  border: solid brown;
+  border-width: 5px;
 }
 
+ol{
+  border: solid purple;
+  border-width: 5px;
+}
