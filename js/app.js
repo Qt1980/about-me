@@ -108,7 +108,7 @@ youngBuck();
 //Seventh question
 
 var answerCorrectly = false;
-var myfavoriteAnimals = ['House cat', 'Golden Eagle', 'Bat', 'Dog', 'Octopus', 'Snake', 'Scorpion'];
+var myfavoriteAnimals = ['house cat', 'golden eagle', 'bat', 'dog', 'octopus', 'snake', 'scorpion'];
 //console.log(myfavoriteAnimals);
 
 function myFavorites() {
